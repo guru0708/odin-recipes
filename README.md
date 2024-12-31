@@ -1,5 +1,9 @@
 This is a Odin Project Assignment for basic HTML.
 
+This assignment is to create a basic recipes website with homepage having links to various recipes.
+Clicking on the recipes should open the instructions page for creating the recipe along with picture of
+the final product.
+
 Purpose of this assignment is to practice
 
 1. Boilerplate HTML structure
