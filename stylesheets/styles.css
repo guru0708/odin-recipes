@@ -1,5 +1,6 @@
 body {
     background-color: beige;
+    padding-left: 30px;
 }
 
 .center {
@@ -14,6 +15,7 @@ h1.page-title {
     font-size: 65px;
     font-weight: 700;
     display: inline;
+    line-height: 2;
 }
 
 li.recipe-list-item {
@@ -35,4 +37,18 @@ li.recipe-list-item.even {
 
 a {
     color: inherit;
+}
+
+img {
+    text-align: center;
+    line-height: 2;
+    height: auto;
+    width: 600px;
+}
+
+h3 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 700;
+    display: inline;
+    color:rgb(77, 31, 138);
 }
