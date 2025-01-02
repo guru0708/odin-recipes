@@ -23,25 +23,26 @@ h1.page-title {
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 65px;
     font-weight: 700;
-    display: inline;
-    line-height: 2;
 }
 
 li.recipe-list-item {
-    display: inline;
     font-size: 25px;
-    line-height: 1.6;
-    padding: 5px 0;
+    margin: 8px 0;
+    list-style: none;
 }
 
-li.recipe-list-item.odd {
+li.recipe-list-item.odd > a {
     color: blueviolet;
     background-color: gold;
+    padding: 5px;
+    display: inline-block;
 }
 
-li.recipe-list-item.even {
+li.recipe-list-item.even > a {
     color: gold;
     background-color: blueviolet;
+    padding: 5px;
+    display: inline-block;
 }
 
 a {
@@ -50,38 +51,35 @@ a {
 
 img {
     text-align: center;
-    line-height: 2;
     height: auto;
     width: 600px;
+    display: block;
+    margin: 0 auto;
 }
 
 h3 {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 700;
-    display: inline;
     color:rgb(221, 131, 4);
     font-size: 35px;
-    line-height: 2;
 }
 
 h4 {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 700;
-    display: inline;
     color:rgb(221, 131, 4);
     font-size: 30px;
-    line-height: 2;
+    margin-bottom: 5px;
 }
 
 cite {
-    display: inline;
     color:rgb(214, 7, 166);
     background-color: blanchedalmond;
 }
 
 h5 {
-    display: inline;
     color: darkmagenta;
     font-weight: 600;
     font-size: 25px;
+    margin: 0;
 }
