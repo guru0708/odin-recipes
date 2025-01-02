@@ -1,6 +1,15 @@
 body {
     background-color: beige;
-    padding-left: 30px;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30px;
+}
+
+.text-content {
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 0.8px;
 }
 
 .center {
@@ -51,7 +60,7 @@ h3 {
     font-weight: 700;
     display: inline;
     color:rgb(221, 131, 4);
-    font-size: 30px;
+    font-size: 35px;
     line-height: 2;
 }
 
@@ -60,7 +69,7 @@ h4 {
     font-weight: 700;
     display: inline;
     color:rgb(221, 131, 4);
-    font-size: 25px;
+    font-size: 30px;
     line-height: 2;
 }
 
@@ -74,5 +83,5 @@ h5 {
     display: inline;
     color: darkmagenta;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
 }
